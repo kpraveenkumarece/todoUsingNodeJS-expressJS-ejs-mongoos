@@ -1,0 +1,116 @@
+/* Added margin-bottom to all elements */
+* {
+  margin-bottom: 8px;
+}
+
+/* Removed text decoration from links */
+a {
+  text-decoration: none;
+}
+
+/* Changed font family and background image */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* Changed text color and added margin to heading */
+.heading {
+  color: #4c4c4c;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Removed border and changed background color of cards */
+.card {
+  padding: 7px;
+  border: none;
+  background-color: azure;
+}
+
+/* Changed width and position of category card */
+.category-card {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+}
+
+/* Changed width, position, and text alignment of due date card */
+.due-date-card {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  text-align: right;
+}
+
+
+/* Changed margin and width of container element */
+#container {
+  margin-left: 30%;
+  width: 45%;
+}
+
+/* Changed margin and added flex wrap to action button container */
+.action-button-container {
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* Changed display type and width of task card */
+.task-card {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Changed width and added padding top to tick box */
+.tick-box {
+  width: 8%;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5%;
+}
+
+/* Changed width of tag box */
+.tag-box {
+  width: 20%;
+}
+
+/* Changed height and width of select task input */
+input.select-task {
+  height: 20px;
+  width: 25px;
+}
+
+/* Changed width of task body */
+.task-body {
+  width: 90%;
+}
+
+/* Changed background color and text color of button */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Changed background color of button on hover */
+button:hover {
+  background-color: #3e8e41;
+}
